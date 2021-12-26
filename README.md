@@ -13,4 +13,5 @@ docker run -d -p 8000:2499 my-flask-application:0.1
 
 ## AWS URLs
 * **Cloudfront:** https://dqtfg5p8bwuqh.cloudfront.net
-* **ECS Service:** http://ec2co-ecsel-1fynt14td8kh1-1056333738.eu-central-1.elb.amazonaws.com:2499/v1/test
+* **ECS cluster:** https://eu-central-1.console.aws.amazon.com/ecs/home?region=eu-central-1#/clusters/flask-message-response/services
+* **S3 bucket:** https://s3.console.aws.amazon.com/s3/buckets/www.salt-security-homepage?region=eu-central-1&tab=objects
