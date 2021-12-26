@@ -13,7 +13,7 @@ def test():
 
 @app.route("/v1/health", methods=["GET"])
 def health():
-    return Response(status=200)
+    return Response("Healthy", 200)
 
 
-app.run(host="0.0.0.0", port=PORT)
+app.run(host=HOSTNAME, port=PORT)
